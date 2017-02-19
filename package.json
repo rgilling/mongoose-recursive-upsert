@@ -1,7 +1,7 @@
 {
   "name": "mongoose-recursive-upsert",
   "version": "0.8.1",
-  "description": "Performs a recursive update of an object while calling Middleware",
+  "description": "For upserting Mongoose objects while preserving Middleware and defaults.",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -14,10 +14,16 @@
     "Plugins",
     "Upsert"
   ],
+  "homepage": "https://github.com/rgilling/mongoose-recursive-upsert",
+  "bugs": "https://github.com/rgilling/mongoose-recursive-upsert/issues",
   "author": "Richard Gilling <Richard.Gilling@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rgilling/mongoose-recursive-upsert/issues"
+  },
   "peerDependencies": {
-    "mongoose": ">4.0"
+    "mongoose": ">=4.0"
   },
   "dependencies": {
     "lodash": "^4.17.4"
